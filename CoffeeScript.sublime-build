@@ -10,4 +10,8 @@
 			"cmd": ["coffee", "$file"]
 		}
 	]
+,	"windows": {
+		"cmd": ["cake.cmd", "sbuild"],
+		"path": "$PATH"
+	}
 }
